@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    background-color: #4287f5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0 ;
+    font-family: 'Alfa Slab One', cursiva;
+    
+}
+.logo-imagem{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 25px;
+}
+.conteiner-logo{
+    display: flex;
+    align-items: center;
+
+}
+.logo-texto{
+    margin-left: 20px;
+    color: white
+}
+
+.menu li{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.menu li a {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+#txt{
+    text-transform: uppercase;
+    margin-left: 30px;
+
+}
